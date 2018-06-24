@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ser>
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.httpserver.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>register</servlet-name>
+		<servlet-class>com.httpserver.RegisterServlet</servlet-class>
+	</servlet>
+	<mapping>
+		<mapping-name>login</mapping-name>
+		<servlet-url>/login</servlet-url>
+		<servlet-url>/log</servlet-url>
+	</mapping>
+	<mapping>
+		<mapping-name>register</mapping-name>
+		<servlet-url>/reg</servlet-url>
+	</mapping>
+</ser>
